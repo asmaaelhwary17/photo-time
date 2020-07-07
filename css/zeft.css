@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    font-family: 'Roboto', sans-serif;
+
+}
+@media (max-width:767px){
+	.container{
+    width: 100%;
+}
+	.slider{
+    text-align: center;
+    background-image: url(../imeges/asm.png);
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+	.slider nav ul{
+	width: 767px;
+    list-style: none;
+    text-align: center;
+    margin-bottom: 200px;
+    padding-top: 50px;
+    padding-left: 20px;
+    
+}
+	.slider nav li{
+		display: inline;
+		color: aquamarine;
+		margin-right: 30px;
+	}
+ 	
+}
+@media (min-width:768px) and (max-width:991px){
+	.container{
+    width: 750px;
+}
+	.slider nav ul li{
+    display: block;
+    margin-right: 100px;
+    color: blue;
+    
+}
+}
+@media (min-width:992px) and (max-width:1199px){
+	.container{
+    width:970px;
+	background-color: aqua;
+}
+}
+@media (min-width:1200px){}
+
+
+.container{
+    width: 1170px;
+    margin: auto;
+    overflow: hidden;
+}
+.slider{
+    text-align: center;
+    background-image: url(../imeges/asm.png);
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+ .slider nav ul{
+    list-style: none;
+    text-align: center;
+    margin-bottom: 200px;
+    padding-top: 50px;
+    padding-left: 100px;
+    
+}
+ .slider nav ul li{
+    display: inline;
+    margin-right: 150px;
+    color: red;
+    
+}
+
+}
+.head{
+    margin-top: 500PX;
+  text-align: center;
+  float: none;
+}
+h1 ,.firstp{
+    text-align: center;
+    color: #fff;
+    font-style: normal;
+    
+}
+h1{font-size: 35px;}
+.fb{
+    background-color: #16A085;
+    color: #fff;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 45px;
+    display: block; 
+    border: none;
+    border-radius: 10px;  
+} 
+.fb:hover{
+    background-color: #FF7777;
+    cursor: pointer;
+}
+
+
+
+.icons{ margin-top: 280px;
+    text-align: center;
+    margin-left: 35px;
+
+}
+.icons li i{
+    margin-right: 35px;
+    color: #fff;
+    font-size: 28px;
+
+}
+.icons li i:hover{cursor: pointer}
+.icons li{
+    
+    display: inline;
+    
+}
+.life{ 
+    background-image: url(../imeges/hand.png);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+	background-repeat: no-repeat;
+}
+.info{
+    width: 400px;
+    margin-top: 100px;   
+}
+.info h2{
+    color: #16A085;
+    font-size: 25px;
+    padding-bottom: 50px;
+    font-weight: bolder;
+    
+    
+    
+}
+.info .secp{ 
+    color: #C5C3C4;
+    font-size: 16px;
+    line-height: 30px;
+
+}
+.info span{color: black;}
+
+.sb{   
+    background-color: #16A085;
+    color: #fff;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 45px;
+    border: none;
+    border-radius: 10px;
+    float: left;
+    border: none;
+    
+}
+.sb:hover{    
+    background-color: #FF7777;
+    cursor: pointer;
+}
+.design{
+  
+    width: 100%;
+    padding-top: 100px;
+
+
+}
+.design .pic { 
+    float: left;
+    width: 50%;
+}
+.design .de{
+    width: 60%;
+    padding: 50px;
+    text-transform: uppercase;
+    color: #16A085;
+    font-size: 25px;
+    font-weight: bolder;
+   
+}
+.design .thp{ 
+    color: #C5C3C4;
+    font-size: 16px;
+    line-height: 30px;
+
+}
+
+.thb{
+    background-color: #16A085;
+    color: #fff;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 45px;
+    border: none;
+    border-radius: 10px;
+    float: left;
+    border: none;
+    
+}
+.thb:hover{    
+    background-color: #FF7777;
+    cursor: pointer;
+}
+
+.our{padding: 100px;
+     
+   }
+.kalam{
+       float: left;
+       text-align: center;
+       width: 30.333%;
+      }
+.kalam img{background-color: aqua;}
+.kalam h3{
+    text-transform: uppercase;
+    color: black; 
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+     }
+.kalam p{
+    color: #C5C3C4;
+    font-size: 16px;
+    line-height: 20px;
+    width: 200px;
+    margin: auto;
+
+}
+.pictur .van{margin-right: 30px;}
+.subscribe{
+    text-align: center;
+    background-image: url(../imeges/girl.png);
+    background-attachment: fixed;
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+}
+form{
+    padding: 250px;
+}
+form h2{
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 27px;
+    letter-spacing: -1.3px;
+    font-weight: bolder;
+}
+ form .sign input{
+    height: 50px;
+    width: 230px;
+    text-indent: 10px;
+    text-transform: capitalize;
+}
+form .sign a{
+    color: #fff;
+    font-size: 18px;
+}
+form .sign i{
+    width: 50px;
+    height: 50px;
+    background-color: #16A085;
+    line-height: 50px;
+    margin-left: -5px;
+    border: 1px solid #16A085;        
+}
+.download{
+    text-align: center;
+    padding: 100px;
+    background-color: #F5F6F7
+}
+.download h2{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.download p{
+    color: #CEC3D6;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.download .apple, .download .play{
+    height: 45px;
+    width: 250px;
+    background-color: #16A085;
+    color: #fff;
+    font-size: 22px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+	transition: all .5s ease-in-out
+}
+ .download .apple:hover{
+    background-color: #FF7777;
+     cursor: pointer;
+}
+ .download .play:hover{
+    background-color: #FF7777;
+    cursor: pointer;
+}
+
+
+.links{margin: 100px;
+       font-weight: bold;}
+.links  ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+}
+.links ul li a{
+    color: black;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+.links span{
+	color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
